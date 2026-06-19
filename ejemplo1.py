@@ -11,7 +11,9 @@ class Game(ShowBase):
         self.model.setScale(0.1)
         self.model.setPos(-2, 25, -3)
 
-        base.camLens.setFov(90)
+        self.camera.setPos(0, -50, 10)
+
+        self.camLens.setFov(90)
 
 
 game = Game()
