@@ -46,3 +46,10 @@ Thumbs.db
 # Environment variables
 .env
 .env.local
+
+# Local package installations (for environments without pip/virtualenv)
+.local_packages/
+pip.pyz
+
+# Temporary/downloaded placeholder asset not part of the catalog
+assets/Box.glb
