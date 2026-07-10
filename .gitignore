@@ -1,55 +1,24 @@
-# Virtual Environment
-pandas3d_env/Include/
-pandas3d_env/Lib/
-pandas3d_env/Scripts/
-pandas3d_env/bin/
-pandas3d_env/share/
-pandas3d_env/.venv
-*.egg-info/
+# Entornos virtuales
+.venv/
+venv/
+pandas3d_env/
+
+# Caché de Python
 __pycache__/
-
-# Python
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# IDE
+# VS Code
 .vscode/
-.idea/
-*.swp
-*.swo
-*~
 
-# OS
+# Pruebas
+.pytest_cache/
+
+# Archivos locales
+.local_packages/
+
+# Metadatos de instalación editable
+*.egg-info/
+
+# Sistema operativo
 .DS_Store
 Thumbs.db
-
-# Environment variables
-.env
-.env.local
-
-# Local package installations (for environments without pip/virtualenv)
-.local_packages/
-pip.pyz
-
-# Temporary/downloaded placeholder asset not part of the catalog
-assets/Box.glb
