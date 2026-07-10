@@ -56,6 +56,7 @@ class Game(ShowBase):
 
     def configure_camera(self) -> None:
         self.camLens.setFov(CAMERA_FOV)
+        self.disableMouse()
 
         self.camera.setPos(0, -22, 18)
         self.camera.lookAt(0, 0, 0)
